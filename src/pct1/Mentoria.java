@@ -1,0 +1,43 @@
+package pct1;
+
+import java.time.LocalDate;
+
+public class Mentoria {
+	private String titulo;
+	private String descricao;
+	private LocalDate dataInicial;
+
+	public Mentoria() {
+		super();
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public String getDescricao() {
+		return descricao;
+	}
+
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
+	}
+
+	public LocalDate getDataInicial() {
+		return dataInicial;
+	}
+
+	public void setDate(LocalDate dataInicial) {
+		this.dataInicial = dataInicial;
+	}
+
+	@Override
+	public String toString() {
+		return "Mentoria\n [titulo=" + titulo + ", descricao=" + descricao + ", date=" + dataInicial + "]";
+	}
+
+}
